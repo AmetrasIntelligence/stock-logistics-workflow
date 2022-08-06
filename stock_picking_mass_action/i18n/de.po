@@ -1,29 +1,25 @@
-# Translation of Odoo Server.
-# This file contains the translation of the following modules:
-# * stock_picking_mass_action
-#
-# Translators:
-# OCA Transbot <transbot@odoo-community.org>, 2016
-# Rudolf Schnapka <rs@techno-flex.de>, 2016
-# Ermin Trevisan <trevi@twanda.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 8.0\n"
+"Project-Id-Version: ametras-xsolutions\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-11-18 01:44+0000\n"
-"PO-Revision-Date: 2016-11-18 01:44+0000\n"
-"Last-Translator: Ermin Trevisan <trevi@twanda.com>, 2016\n"
-"Language-Team: German (https://www.transifex.com/oca/teams/23907/de/)\n"
-"Language: de\n"
+"Last-Translator: \n"
+"Language-Team: German\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ametras-xsolutions\n"
+"X-Crowdin-Project-ID: 530964\n"
+"X-Crowdin-Language: de\n"
+"X-Crowdin-File: /[AmetrasIntelligence.stock-logistics-workflow] 13.0/stock_picking_mass_action/i18n/stock_picking_mass_action.pot\n"
+"X-Crowdin-File-ID: 6428\n"
+"Language: de_DE\n"
+"PO-Revision-Date: 2022-08-06 22:07\n"
 
 #. module: stock_picking_mass_action
 #: model_terms:ir.ui.view,arch_db:stock_picking_mass_action.view_stock_picking_mass_action_form
 msgid "Apply"
-msgstr "Übernehmen"
+msgstr ""
 
 #. module: stock_picking_mass_action
 #: model_terms:ir.ui.view,arch_db:stock_picking_mass_action.view_stock_picking_mass_action_form
@@ -40,19 +36,18 @@ msgstr "Verfügbarkeit prüfen"
 #: model:ir.actions.server,name:stock_picking_mass_action.ir_cron_check_assign_all_ir_actions_server
 #: model:ir.cron,cron_name:stock_picking_mass_action.ir_cron_check_assign_all
 #: model:ir.cron,name:stock_picking_mass_action.ir_cron_check_assign_all
-#, fuzzy
 msgid "Check Availability of Stock Picking"
-msgstr "Verfügbarkeit prüfen"
+msgstr ""
 
 #. module: stock_picking_mass_action
 #: model:ir.model.fields,field_description:stock_picking_mass_action.field_stock_picking_mass_action__create_uid
 msgid "Created by"
-msgstr "erstellt von"
+msgstr "Erstellt von"
 
 #. module: stock_picking_mass_action
 #: model:ir.model.fields,field_description:stock_picking_mass_action.field_stock_picking_mass_action__create_date
 msgid "Created on"
-msgstr "erstellt am"
+msgstr "Erstellt am"
 
 #. module: stock_picking_mass_action
 #: model:ir.model.fields,field_description:stock_picking_mass_action.field_stock_picking_mass_action__display_name
@@ -78,12 +73,12 @@ msgstr "Zuletzt geändert am"
 #. module: stock_picking_mass_action
 #: model:ir.model.fields,field_description:stock_picking_mass_action.field_stock_picking_mass_action__write_uid
 msgid "Last Updated by"
-msgstr "zuletzt aktualisiert von"
+msgstr "Zuletzt aktualisiert von"
 
 #. module: stock_picking_mass_action
 #: model:ir.model.fields,field_description:stock_picking_mass_action.field_stock_picking_mass_action__write_date
 msgid "Last Updated on"
-msgstr "zuletzt aktualisiert am"
+msgstr "Zuletzt aktualisiert am"
 
 #. module: stock_picking_mass_action
 #: model:ir.actions.act_window,name:stock_picking_mass_action.action_confirm
@@ -98,9 +93,8 @@ msgstr ""
 
 #. module: stock_picking_mass_action
 #: model:ir.model.fields,field_description:stock_picking_mass_action.field_stock_picking_mass_action__picking_ids
-#, fuzzy
 msgid "Pickings"
-msgstr "Pickliste"
+msgstr ""
 
 #. module: stock_picking_mass_action
 #: model:ir.model,name:stock_picking_mass_action.model_stock_picking_mass_action
@@ -112,13 +106,11 @@ msgstr ""
 #: model:ir.model,name:stock_picking_mass_action.model_stock_picking
 #: model:ir.model.fields,field_description:stock_picking_mass_action.field_stock_picking_mass_action__transfer
 msgid "Transfer"
-msgstr "Transfer"
+msgstr ""
 
 #. module: stock_picking_mass_action
 #: model:ir.model.fields,help:stock_picking_mass_action.field_stock_picking_mass_action__check_availability
-msgid ""
-"check this box if you want to check the availability of the selected "
-"Pickings."
+msgid "check this box if you want to check the availability of the selected Pickings."
 msgstr ""
 
 #. module: stock_picking_mass_action
@@ -128,8 +120,7 @@ msgstr ""
 
 #. module: stock_picking_mass_action
 #: model:ir.model.fields,help:stock_picking_mass_action.field_stock_picking_mass_action__transfer
-msgid ""
-"check this box if you want to transfer all the selected pickings.\n"
+msgid "check this box if you want to transfer all the selected pickings.\n"
 " You'll not have the possibility to realize a partial transfer.\n"
 " If you want  to do that, please do it manually on the picking form."
 msgstr ""
@@ -137,13 +128,5 @@ msgstr ""
 #. module: stock_picking_mass_action
 #: model_terms:ir.ui.view,arch_db:stock_picking_mass_action.view_stock_picking_mass_action_form
 msgid "or"
-msgstr "oder"
+msgstr ""
 
-#~ msgid "Force Availability"
-#~ msgstr "Erzwinge Verfügbarkeit"
-
-#~ msgid "Create Invoices/Refunds"
-#~ msgstr "Erstelle Rechnung / Gutschrift"
-
-#~ msgid "Stock Invoice Onshipping"
-#~ msgstr "Abrechnung bei Versand"
