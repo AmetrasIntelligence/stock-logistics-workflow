@@ -1,28 +1,25 @@
-# Translation of Odoo Server.
-# This file contains the translation of the following modules:
-# * stock_picking_mass_action
-#
-# Translators:
-# OCA Transbot <transbot@odoo-community.org>, 2016
-# Hosni Hadj Taher <hajhasni@hotmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 8.0\n"
+"Project-Id-Version: ametras-xsolutions\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-18 08:44+0000\n"
-"PO-Revision-Date: 2017-02-18 08:44+0000\n"
-"Last-Translator: Hosni Hadj Taher <hajhasni@hotmail.com>, 2017\n"
-"Language-Team: French (https://www.transifex.com/oca/teams/23907/fr/)\n"
-"Language: fr\n"
+"Last-Translator: \n"
+"Language-Team: French\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: ametras-xsolutions\n"
+"X-Crowdin-Project-ID: 530964\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: /[AmetrasIntelligence.stock-logistics-workflow] 13.0/stock_picking_mass_action/i18n/stock_picking_mass_action.pot\n"
+"X-Crowdin-File-ID: 6428\n"
+"Language: fr_FR\n"
+"PO-Revision-Date: 2022-08-06 22:07\n"
 
 #. module: stock_picking_mass_action
 #: model_terms:ir.ui.view,arch_db:stock_picking_mass_action.view_stock_picking_mass_action_form
 msgid "Apply"
-msgstr "Appliquer"
+msgstr ""
 
 #. module: stock_picking_mass_action
 #: model_terms:ir.ui.view,arch_db:stock_picking_mass_action.view_stock_picking_mass_action_form
@@ -39,9 +36,8 @@ msgstr "Vérifier la disponibilité"
 #: model:ir.actions.server,name:stock_picking_mass_action.ir_cron_check_assign_all_ir_actions_server
 #: model:ir.cron,cron_name:stock_picking_mass_action.ir_cron_check_assign_all
 #: model:ir.cron,name:stock_picking_mass_action.ir_cron_check_assign_all
-#, fuzzy
 msgid "Check Availability of Stock Picking"
-msgstr "Vérifier la disponibilité"
+msgstr ""
 
 #. module: stock_picking_mass_action
 #: model:ir.model.fields,field_description:stock_picking_mass_action.field_stock_picking_mass_action__create_uid
@@ -56,12 +52,12 @@ msgstr "Créé le"
 #. module: stock_picking_mass_action
 #: model:ir.model.fields,field_description:stock_picking_mass_action.field_stock_picking_mass_action__display_name
 msgid "Display Name"
-msgstr "Nom"
+msgstr "Nom d'affichage"
 
 #. module: stock_picking_mass_action
 #: model:ir.model.fields,field_description:stock_picking_mass_action.field_stock_picking_mass_action__id
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #. module: stock_picking_mass_action
 #: code:addons/stock_picking_mass_action/models/stock_picking.py:0
@@ -77,12 +73,12 @@ msgstr "Dernière modification le"
 #. module: stock_picking_mass_action
 #: model:ir.model.fields,field_description:stock_picking_mass_action.field_stock_picking_mass_action__write_uid
 msgid "Last Updated by"
-msgstr "Dernière modification par"
+msgstr "Dernière mise à jour par"
 
 #. module: stock_picking_mass_action
 #: model:ir.model.fields,field_description:stock_picking_mass_action.field_stock_picking_mass_action__write_date
 msgid "Last Updated on"
-msgstr "Dernière modification le"
+msgstr "Dernière mise à jour le"
 
 #. module: stock_picking_mass_action
 #: model:ir.actions.act_window,name:stock_picking_mass_action.action_confirm
@@ -93,13 +89,12 @@ msgstr "Marquer \"A faire\""
 #. module: stock_picking_mass_action
 #: model_terms:ir.ui.view,arch_db:stock_picking_mass_action.view_stock_picking_mass_action_form
 msgid "Mass Action for the selected stock picking"
-msgstr "Action Globale pour les opérations de manutention sélectionnées"
+msgstr ""
 
 #. module: stock_picking_mass_action
 #: model:ir.model.fields,field_description:stock_picking_mass_action.field_stock_picking_mass_action__picking_ids
-#, fuzzy
 msgid "Pickings"
-msgstr "Opération de manutention"
+msgstr ""
 
 #. module: stock_picking_mass_action
 #: model:ir.model,name:stock_picking_mass_action.model_stock_picking_mass_action
@@ -111,61 +106,29 @@ msgstr "Action Globale sur opérations de manutention"
 #: model:ir.model,name:stock_picking_mass_action.model_stock_picking
 #: model:ir.model.fields,field_description:stock_picking_mass_action.field_stock_picking_mass_action__transfer
 msgid "Transfer"
-msgstr "Transférer"
+msgstr ""
 
 #. module: stock_picking_mass_action
 #: model:ir.model.fields,help:stock_picking_mass_action.field_stock_picking_mass_action__check_availability
-msgid ""
-"check this box if you want to check the availability of the selected "
-"Pickings."
-msgstr ""
-"Cocher cette case si vous voulez vérifier la disponibilité sur les "
-"opérations de manutention sélectionnées."
+msgid "check this box if you want to check the availability of the selected Pickings."
+msgstr "Cocher cette case si vous voulez vérifier la disponibilité sur les opérations de manutention sélectionnées."
 
 #. module: stock_picking_mass_action
 #: model:ir.model.fields,help:stock_picking_mass_action.field_stock_picking_mass_action__confirm
 msgid "check this box if you want to mark as Todo the selected Pickings."
-msgstr ""
-"Cochez cette case si vous voulez marquer comme À Faire les restes "
-"sélectionnés."
+msgstr "Cochez cette case si vous voulez marquer comme À Faire les restes sélectionnés."
 
 #. module: stock_picking_mass_action
 #: model:ir.model.fields,help:stock_picking_mass_action.field_stock_picking_mass_action__transfer
-msgid ""
-"check this box if you want to transfer all the selected pickings.\n"
+msgid "check this box if you want to transfer all the selected pickings.\n"
 " You'll not have the possibility to realize a partial transfer.\n"
 " If you want  to do that, please do it manually on the picking form."
-msgstr ""
-"Cocher cette case si vous voulez transférer les opérations de manutention "
-"sélectionnées.\n"
+msgstr "Cocher cette case si vous voulez transférer les opérations de manutention sélectionnées.\n"
 " Vous n'aurez pas la possibilité de réaliser un transfert partiel.\n"
-" Si vous voulez faire cela, vous pouvez le faire manuellement sur le "
-"formulaire de l'opération de manutention."
+" Si vous voulez faire cela, vous pouvez le faire manuellement sur le formulaire de l'opération de manutention."
 
 #. module: stock_picking_mass_action
 #: model_terms:ir.ui.view,arch_db:stock_picking_mass_action.view_stock_picking_mass_action_form
 msgid "or"
 msgstr "ou"
 
-#~ msgid "Force Availability"
-#~ msgstr "Forcer la disponibilité"
-
-#~ msgid ""
-#~ "check this box if you want to force the availability of the selected "
-#~ "Pickings."
-#~ msgstr ""
-#~ "Cocher cette case si vous voulez forcer la disponibilité sur les "
-#~ "opérations de manutention sélectionnées."
-
-#~ msgid "Create Invoices/Refunds"
-#~ msgstr "Créer factures/avoirs"
-
-#~ msgid "Stock Invoice Onshipping"
-#~ msgstr "Créer les factures brouillons"
-
-#~ msgid ""
-#~ "check this box if you want to create Invoices or Refunds for all the "
-#~ "selected Pickings."
-#~ msgstr ""
-#~ "Cocher cette case si vous voulez créer des factures ou des avoirs pour "
-#~ "les opérations de manutention sélectionnées."
