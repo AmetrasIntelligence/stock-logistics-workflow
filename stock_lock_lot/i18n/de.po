@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.stock-logistics-workflow] 13.0/stock_lock_lot/i18n/stock_lock_lot.pot\n"
 "X-Crowdin-File-ID: 6358\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 22:07\n"
+"PO-Revision-Date: 2022-08-11 15:53\n"
 
 #. module: stock_lock_lot
 #: model:ir.model.fields,field_description:stock_lock_lot.field_stock_location__allow_locked
@@ -45,7 +45,7 @@ msgstr ""
 #. module: stock_lock_lot
 #: model:ir.model,name:stock_lock_lot.model_stock_location
 msgid "Inventory Locations"
-msgstr ""
+msgstr "Lagerstandorte"
 
 #. module: stock_lock_lot
 #: model_terms:ir.ui.view,arch_db:stock_lock_lot.search_product_lot_filter
