@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.stock-logistics-workflow] 13.0/stock_split_picking/i18n/stock_split_picking.pot\n"
 "X-Crowdin-File-ID: 6588\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 22:08\n"
+"PO-Revision-Date: 2022-08-11 10:51\n"
 
 #. module: stock_split_picking
 #: model_terms:ir.ui.view,arch_db:stock_split_picking.view_stock_split_picking
@@ -123,7 +123,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_split_picking.view_picking_form
 #: model_terms:ir.ui.view,arch_db:stock_split_picking.view_stock_split_picking
 msgid "Split"
-msgstr ""
+msgstr "Aufteilen"
 
 #. module: stock_split_picking
 #: model:ir.model,name:stock_split_picking.model_stock_split_picking
