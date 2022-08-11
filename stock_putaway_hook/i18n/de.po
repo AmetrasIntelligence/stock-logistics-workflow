@@ -14,12 +14,12 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.stock-logistics-workflow] 13.0/stock_putaway_hook/i18n/stock_putaway_hook.pot\n"
 "X-Crowdin-File-ID: 6556\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 22:08\n"
+"PO-Revision-Date: 2022-08-11 15:53\n"
 
 #. module: stock_putaway_hook
 #: model:ir.model,name:stock_putaway_hook.model_stock_location
 msgid "Inventory Locations"
-msgstr ""
+msgstr "Lagerstandorte"
 
 #. module: stock_putaway_hook
 #: model:ir.model,name:stock_putaway_hook.model_stock_putaway_rule
