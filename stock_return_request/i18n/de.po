@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.stock-logistics-workflow] 13.0/stock_return_request/i18n/stock_return_request.pot\n"
 "X-Crowdin-File-ID: 6580\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-08 21:51\n"
+"PO-Revision-Date: 2022-08-11 13:15\n"
 
 #. module: stock_return_request
 #: code:addons/stock_return_request/models/stock_return_request.py:0
@@ -457,7 +457,7 @@ msgstr ""
 #. module: stock_return_request
 #: model:ir.model.fields.selection,name:stock_return_request.selection__stock_return_request__return_type__supplier
 msgid "Return to Supplier"
-msgstr ""
+msgstr "Retoure an Lieferant"
 
 #. module: stock_return_request
 #: model:ir.model.fields,help:stock_return_request.field_stock_return_request__return_to_location
