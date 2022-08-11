@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.stock-logistics-workflow] 13.0/stock_no_negative/i18n/stock_no_negative.pot\n"
 "X-Crowdin-File-ID: 6384\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 22:07\n"
+"PO-Revision-Date: 2022-08-11 15:53\n"
 
 #. module: stock_no_negative
 #: code:addons/stock_no_negative/models/stock_quant.py:0
@@ -49,7 +49,7 @@ msgstr ""
 #. module: stock_no_negative
 #: model:ir.model,name:stock_no_negative.model_stock_location
 msgid "Inventory Locations"
-msgstr ""
+msgstr "Lagerstandorte"
 
 #. module: stock_no_negative
 #: model:ir.model,name:stock_no_negative.model_product_category
