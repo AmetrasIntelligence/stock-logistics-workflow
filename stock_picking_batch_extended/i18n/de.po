@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.stock-logistics-workflow] 13.0/stock_picking_batch_extended/i18n/stock_picking_batch_extended.pot\n"
 "X-Crowdin-File-ID: 6406\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-11 10:51\n"
+"PO-Revision-Date: 2022-08-17 16:29\n"
 
 #. module: stock_picking_batch_extended
 #: model:ir.model.fields,field_description:stock_picking_batch_extended.field_stock_picking_batch__picking_count
@@ -212,7 +212,7 @@ msgstr "Anzeigename"
 #. module: stock_picking_batch_extended
 #: model_terms:ir.ui.view,arch_db:stock_picking_batch_extended.stock_batch_picking_form
 msgid "Done"
-msgstr ""
+msgstr "Erledigt"
 
 #. module: stock_picking_batch_extended
 #: model:ir.model.fields,field_description:stock_picking_batch_extended.field_stock_picking_batch__entire_package_ids
