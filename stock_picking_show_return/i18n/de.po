@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.stock-logistics-workflow] 13.0/stock_picking_show_return/i18n/stock_picking_show_return.pot\n"
 "X-Crowdin-File-ID: 6526\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 22:08\n"
+"PO-Revision-Date: 2022-08-18 16:11\n"
 
 #. module: stock_picking_show_return
 #: model_terms:ir.ui.view,arch_db:stock_picking_show_return.view_picking_form
@@ -29,7 +29,7 @@ msgstr ""
 #. module: stock_picking_show_return
 #: model_terms:ir.ui.view,arch_db:stock_picking_show_return.view_picking_form
 msgid "Returns"
-msgstr ""
+msgstr "Rückgaben"
 
 #. module: stock_picking_show_return
 #: model:ir.model.fields,field_description:stock_picking_show_return.field_stock_picking__source_picking_id
