@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.stock-logistics-workflow] 13.0/stock_quant_package_dimension/i18n/stock_quant_package_dimension.pot\n"
 "X-Crowdin-File-ID: 6560\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 22:08\n"
+"PO-Revision-Date: 2022-08-18 07:49\n"
 
 #. module: stock_quant_package_dimension
 #: model:ir.model.fields,help:stock_quant_package_dimension.field_stock_quant_package__estimated_pack_weight
@@ -34,12 +34,12 @@ msgstr ""
 #. module: stock_quant_package_dimension
 #: model:ir.model.fields,field_description:stock_quant_package_dimension.field_stock_quant_package__height
 msgid "Height (mm)"
-msgstr ""
+msgstr "Höhe (mm)"
 
 #. module: stock_quant_package_dimension
 #: model:ir.model.fields,field_description:stock_quant_package_dimension.field_stock_quant_package__lngth
 msgid "Length (mm)"
-msgstr ""
+msgstr "Länge (mm)"
 
 #. module: stock_quant_package_dimension
 #: model:ir.model,name:stock_quant_package_dimension.model_stock_quant_package
@@ -49,35 +49,35 @@ msgstr "Verpackungen"
 #. module: stock_quant_package_dimension
 #: model:ir.model.fields,field_description:stock_quant_package_dimension.field_stock_quant_package__volume
 msgid "Volume (m³)"
-msgstr ""
+msgstr "Volumen (m3)"
 
 #. module: stock_quant_package_dimension
 #: model:ir.model.fields,field_description:stock_quant_package_dimension.field_stock_quant_package__pack_weight
 msgid "Weight (kg)"
-msgstr ""
+msgstr "Gewicht (kg)"
 
 #. module: stock_quant_package_dimension
 #: model:ir.model.fields,field_description:stock_quant_package_dimension.field_stock_quant_package__width
 msgid "Width (mm)"
-msgstr ""
+msgstr "Breite (mm)"
 
 #. module: stock_quant_package_dimension
 #: model:ir.model.fields,help:stock_quant_package_dimension.field_stock_quant_package__height
 msgid "height in millimeters"
-msgstr ""
+msgstr "Höhe in Millimetern"
 
 #. module: stock_quant_package_dimension
 #: model:ir.model.fields,help:stock_quant_package_dimension.field_stock_quant_package__lngth
 msgid "length in millimeters"
-msgstr ""
+msgstr "Länge in Millimetern"
 
 #. module: stock_quant_package_dimension
 #: model:ir.model.fields,help:stock_quant_package_dimension.field_stock_quant_package__volume
 msgid "volume in cubic meters"
-msgstr ""
+msgstr "Volumen in Kubikmeter"
 
 #. module: stock_quant_package_dimension
 #: model:ir.model.fields,help:stock_quant_package_dimension.field_stock_quant_package__width
 msgid "width in millimeters"
-msgstr ""
+msgstr "Breite in Millimetern"
 
