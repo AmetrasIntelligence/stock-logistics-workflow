@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.stock-logistics-workflow] 13.0/stock_valuation_layer_usage/i18n/stock_valuation_layer_usage.pot\n"
 "X-Crowdin-File-ID: 6592\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 23:10\n"
+"PO-Revision-Date: 2022-08-18 14:53\n"
 
 #. module: stock_valuation_layer_usage
 #: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_valuation_layer_usage__company_id
@@ -118,7 +118,7 @@ msgstr ""
 #. module: stock_valuation_layer_usage
 #: model_terms:ir.ui.view,arch_db:stock_valuation_layer_usage.stock_valuation_layer_form
 msgid "Usage"
-msgstr ""
+msgstr "Verwendung"
 
 #. module: stock_valuation_layer_usage
 #: model:ir.model.fields,field_description:stock_valuation_layer_usage.field_stock_move__layer_usage_ids
