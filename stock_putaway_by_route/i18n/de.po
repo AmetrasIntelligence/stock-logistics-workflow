@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.stock-logistics-workflow] 13.0/stock_putaway_by_route/i18n/stock_putaway_by_route.pot\n"
 "X-Crowdin-File-ID: 6552\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-11 15:53\n"
+"PO-Revision-Date: 2022-08-18 07:49\n"
 
 #. module: stock_putaway_by_route
 #: model:ir.model,name:stock_putaway_by_route.model_stock_location
@@ -34,7 +34,7 @@ msgstr "Einlagerungsregel"
 #. module: stock_putaway_by_route
 #: model:ir.model.fields,field_description:stock_putaway_by_route.field_stock_putaway_rule__route_id
 msgid "Route"
-msgstr ""
+msgstr "Tour"
 
 #. module: stock_putaway_by_route
 #: model:ir.model,name:stock_putaway_by_route.model_stock_move
