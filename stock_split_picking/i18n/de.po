@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.stock-logistics-workflow] 13.0/stock_split_picking/i18n/stock_split_picking.pot\n"
 "X-Crowdin-File-ID: 6588\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-11 10:51\n"
+"PO-Revision-Date: 2022-09-08 09:19\n"
 
 #. module: stock_split_picking
 #: model_terms:ir.ui.view,arch_db:stock_split_picking.view_stock_split_picking
@@ -139,7 +139,7 @@ msgstr ""
 #: code:addons/stock_split_picking/models/stock_picking.py:0
 #, python-format
 msgid "The backorder <a href=\"#\" data-oe-model=\"stock.picking\" data-oe-id=\"%d\">%s</a> has been created."
-msgstr ""
+msgstr "Lieferrückstand <a href=\"#\" data-oe-model=\"stock.picking\" data-oe-id=\"%d\">%s</a> wurde angelegt."
 
 #. module: stock_split_picking
 #: model:ir.model,name:stock_split_picking.model_stock_picking
