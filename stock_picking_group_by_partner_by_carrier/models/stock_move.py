@@ -45,6 +45,8 @@ class StockMove(models.Model):
         sales = self.mapped("sale_line_id.order_id")
         for sale in sales:
             pattern = r"\b%s\b" % sale.name
+            if not picking.origin:
+                picking.origin = ""
             if not re.search(pattern, picking.origin):
                 picking.origin += " " + sale.name
                 picking.message_post_with_view(
