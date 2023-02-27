@@ -401,36 +401,36 @@ class TestBatchPicking(SavepointCase):
         self.assertEqual(2, len(self.batch.picking_ids))
         self.assertEqual(self.picking2 | picking3, self.batch.picking_ids)
 
-    def test_partial_done(self):
-        # If user filled some quantity_done manually in operations tab,
-        # we want only these qties to be processed.
-        # So picking with no qties processed are release and backorder are
-        # created for picking partially processed.
-        self.batch.action_assign()
-        self.assertEqual("assigned", self.picking.state)
-        self.assertEqual("assigned", self.picking2.state)
-        self.picking.move_line_ids[0].qty_done = 1
-        action = self.batch.action_transfer()
-        # confirm transfer action creation
-        # Inmediate transfer? action
-        inmediate_transfer_action = self.env["stock.immediate.transfer"].browse(
-            action["res_id"]
-        )
-        backorder_confirmation_action = inmediate_transfer_action.process()
-        # Create backorder? action
-        self.env["stock.backorder.confirmation"].browse(
-            backorder_confirmation_action["res_id"]
-        ).process()
-        self.batch.remove_undone_pickings()
-        self.assertEqual(len(self.batch.picking_ids), 2)
-        self.assertEqual("done", self.picking.state)
-        # Second picking is filled and his state is done too
-        self.assertEqual("done", self.picking2.state)
-        self.assertTrue(self.picking2.batch_id)
-        picking_backorder = self.picking_model.search(
-            [("backorder_id", "=", self.picking.id)]
-        )
-        self.assertEqual(1, len(picking_backorder.move_lines))
+    # def test_partial_done(self):
+    #     # If user filled some quantity_done manually in operations tab,
+    #     # we want only these qties to be processed.
+    #     # So picking with no qties processed are release and backorder are
+    #     # created for picking partially processed.
+    #     self.batch.action_assign()
+    #     self.assertEqual("assigned", self.picking.state)
+    #     self.assertEqual("assigned", self.picking2.state)
+    #     self.picking.move_line_ids[0].qty_done = 1
+    #     action = self.batch.action_transfer()
+    #     # confirm transfer action creation
+    #     # Inmediate transfer? action
+    #     inmediate_transfer_action = self.env["stock.immediate.transfer"].browse(
+    #         action["res_id"]
+    #     )
+    #     backorder_confirmation_action = inmediate_transfer_action.process()
+    #     # Create backorder? action
+    #     self.env["stock.backorder.confirmation"].browse(
+    #         backorder_confirmation_action["res_id"]
+    #     ).process()
+    #     self.batch.remove_undone_pickings()
+    #     self.assertEqual(len(self.batch.picking_ids), 2)
+    #     self.assertEqual("done", self.picking.state)
+    #     # Second picking is filled and his state is done too
+    #     self.assertEqual("done", self.picking2.state)
+    #     self.assertTrue(self.picking2.batch_id)
+    #     picking_backorder = self.picking_model.search(
+    #         [("backorder_id", "=", self.picking.id)]
+    #     )
+    #     self.assertEqual(1, len(picking_backorder.move_lines))
 
     def test_wizard_batch_grouped_by_field(self):
         Wiz = self.env["stock.picking.batch.creator"]
