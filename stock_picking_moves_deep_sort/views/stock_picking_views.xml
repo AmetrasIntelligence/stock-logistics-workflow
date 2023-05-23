@@ -7,21 +7,54 @@
         <field name="arch" type="xml">
             <xpath expr="//page[@name='extra']" position="after">
                 <page string="Sorting">
-                    <group name="line_order">
-                        <label for="line_order" />
-                        <div>
-                            <b>Parameter 1: </b>
-                            <field name="line_order" options="{'no_create': True}" />
-                            <br />
-                            <b>Parameter 2: </b>
-                            <field name="line_order_2" options="{'no_create': True}" />
-                            <br />
-                            <b>Order: </b>
-                            <field
-                                name="line_direction"
-                                attrs="{'required': ['|', ('line_order', '!=', False), ('line_order_2', '!=', False)]}"
-                            />
-                        </div>
+                    <group>
+                        <group name="stock_move_order" string="Sort Operations">
+                            <label for="line_order" />
+                            <div>
+                                <b>Parameter 1: </b>
+                                <field
+                                    name="line_order"
+                                    options="{'no_create': True}"
+                                />
+                                <br />
+                                <b>Parameter 2: </b>
+                                <field
+                                    name="line_order_2"
+                                    options="{'no_create': True}"
+                                />
+                                <br />
+                                <b>Order: </b>
+                                <field
+                                    name="line_direction"
+                                    attrs="{'required': ['|', ('line_order', '!=', False), ('line_order_2', '!=', False)]}"
+                                />
+                            </div>
+                        </group>
+                        <group
+                            name="stock_move_line_order"
+                            string="Sort Detailed Operations"
+                        >
+                            <label for="stock_move_line_order" string="Sort Lines By" />
+                            <div>
+                                <b>Parameter 1: </b>
+                                <field
+                                    name="stock_move_line_order"
+                                    options="{'no_create': True}"
+                                />
+                                <br />
+                                <b>Parameter 2: </b>
+                                <field
+                                    name="stock_move_line_order_2"
+                                    options="{'no_create': True}"
+                                />
+                                <br />
+                                <b>Order: </b>
+                                <field
+                                    name="stock_move_line_direction"
+                                    attrs="{'required': ['|', ('stock_move_line_order', '!=', False), ('stock_move_line_order_2', '!=', False)]}"
+                                />
+                            </div>
+                        </group>
                     </group>
                 </page>
             </xpath>
