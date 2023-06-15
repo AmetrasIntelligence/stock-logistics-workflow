@@ -2,6 +2,8 @@ import logging
 
 from odoo import api, fields, models
 
+from natsort import natsort_keygen, ns
+
 from .res_company import SORTING_DIRECTION
 from .shared import resolve_subfields
 
@@ -63,10 +65,11 @@ class StockPicking(models.Model):
         reverse = self.line_direction == "desc"
         sequence = 0
         try:
+            sorting_key = natsort_keygen(alg=ns.REAL | ns.IGNORECASE)
             sorted_lines = self.move_ids_without_package.sorted(
                 key=lambda p: (
-                    resolve_subfields(p, self.line_order),
-                    resolve_subfields(p, self.line_order_2),
+                    sorting_key(resolve_subfields(p, self.line_order)),
+                    sorting_key(resolve_subfields(p, self.line_order_2)),
                 ),
                 reverse=reverse,
             )
@@ -88,10 +91,11 @@ class StockPicking(models.Model):
         reverse = self.stock_move_line_direction == "desc"
         move_line_sequence = 0
         try:
+            sorting_key = natsort_keygen(alg=ns.REAL | ns.IGNORECASE)
             sorted_lines = self.move_line_ids_without_package.sorted(
                 key=lambda p: (
-                    resolve_subfields(p, self.stock_move_line_order),
-                    resolve_subfields(p, self.stock_move_line_order_2),
+                    sorting_key(resolve_subfields(p, self.stock_move_line_order)),
+                    sorting_key(resolve_subfields(p, self.stock_move_line_order_2)),
                 ),
                 reverse=reverse,
             )
